@@ -1,4 +1,5 @@
-cd ~/SUPERCOMPUTING/
+##All commands that were used in the creation of the assignment 1 directory
+cd ./SUPERCOMPUTING/
 mkdir assignments
 touch README.md
 cd assignments/
@@ -17,3 +18,6 @@ touch ./images/sample.jpg
 touch ./logs/00000.log
 touch ./scratch/test.py
 touch ./scripts/simulation_pipeline.py
+touch assignment_1_essay.md
+
+
