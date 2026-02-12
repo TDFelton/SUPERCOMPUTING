@@ -2,7 +2,7 @@
 '''This assignment the task was to pull files from a non-local machine utilizing the ftp command. Then one should use the sftp command to put the downloaded files from the local machine onto the HPC.
 The directory structure is simply the assignment_02 folder with a subdirectory called data. Those were the only folders required for this assignment.'''
 
-ftp ftp.ncbi.nlm.nih.gov
+<n>ftp ftp.ncbi.nlm.nih.gov</n>
 cd genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/
 get GCF_000005845.2_ASM584v2_genomic.fna.gz
 get GCF_000005845.2_ASM584v2_genomic.gff.gz
@@ -43,3 +43,4 @@ source ~/.bashrc
 
 ##Reflection
 '''I liked how the files were easily transferrable using get and put, I didn't even have to go into Filezilla. I had slight trouble with the sftp command because it used my local machine username 'TDFel' instead of 'tdfelton' to log into bora. I fixed this by simply typing out the entire address: tdfelton@bora.sciclone.wm.edu. I also had an error calling source ~/.bashrc, I am not sure why as it was pointing to a line that did not exist (it was claiming that some alias that I assigned in my file had an unmatched ) but there were no )'s within 10 lines of that specific line?), I fixed it by simply exiting the bora connection and relogging in. Other than that everything went very smoothly''' 
+
