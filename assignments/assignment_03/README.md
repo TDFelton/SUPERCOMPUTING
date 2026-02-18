@@ -1,5 +1,6 @@
-##Thomas Felton Assignment 3 2/17/2026
-##All outputs from code are italicized
+##Thomas Felton Assignment 3 2/17/2026 <br />
+##The GCF sequence file was too large to push to github, so I provided a blank file in its place <br />
+##All outputs from code are italicized <br />
 cd ~/SUPERCOMPUTING/assignments/assignment_03 <br />
 wget https://gzahn.github.io/data/GCF_000001735.4_TAIR10.1_genomic.fna.gz <br />
 gunzip GCF_000001735.4_TAIR10.1_genomic.fna.gz <br />
@@ -74,6 +75,7 @@ I learned that reading files and choosing specific lines based on content is ver
 Somehow I initially missed the sort command when looking through the notes, and when I found it I realized how powerful of a command it was. It has lots of variables(?), options(?), whatever the -r, -n, etc. are called so I can infer that it can be applied to many different pipelines. <br />
 These skills are essential in computational work, in my experience, because they are able to communicate seamlessly with many other different machines and are not reliant on other packages. I built a bash script pipeline (largely AI generated because I didn't know bash syntax) to automate the submission of jobs through slurm to the kuro and astral clusters for my lab and that would have been impossible without bash scripting. <br />
 Bash scripting also seems to be useful for navigating between files seamlessly without the need for a large scale file viewer such as VScode which I have been told, by the legendary Eric Walter, requires a suprising amount of computational power if you were to leave multiple tabs open. 
+
 
 
 
