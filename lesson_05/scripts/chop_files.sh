@@ -1,10 +1,10 @@
 #!/bin/bash
 set -ueo pipefail
 
-MAIN_DIR="/sciclone/home/tdfelton/SUPERCOMPUTING/lesson_05"
+DATA_DIR="/sciclone/home/gzahn/SUPERCOMPUTING/lesson_05"
 cd $MAIN_DIR
 
-for FWD in data/*_R1_*
+for FWD in ${DATA_DIR}/data/*_R1_*
 do REV=${FWD/_R1_/_R2_}
 OUT=${FWD%_L001_R1_sample.fastq}_interleaved_chop_${1}.fastq
 echo $FWD $REV $OUT
