@@ -9,7 +9,7 @@ FWD_OUT=${FWD_IN/.fastq.gz/.trimmed.fastq.gz}
 REV_OUT=${REV_IN/.fastq.gz/.trimmed.fastq.gz}
 
 LOG=${FWD_IN/.fastq.gz/.log}
-
+echo "${LOG/raw/log}"
 ##I asked Claude for help with the fastp syntax
 fastp \
    --in1 $FWD_IN \
@@ -17,7 +17,7 @@ fastp \
    --out1 ${FWD_OUT/raw/trimmed} \
    --out2 ${REV_OUT/raw/trimmed} \
    --json /dev/null \
-   --html ${LOG/raw/log} \
+   --html ${LOG/data\/raw/log} \
    --trim_front1 8 \
    --trim_front2 8 \
    --trim_tail1 20 \
