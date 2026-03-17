@@ -7,5 +7,7 @@ Task 3 I had some trouble, after changning my directory to programs (inside the 
 I went to Claude for help with this issue it helped me look for where the zlib module was located using module avail 2>&1 | grep -iE "gcc|intel|foss|gompi"
 This worked and located the module at legacy-tools/gcc-9.5.0, so I included module load legacy-tools/gcc-9.5.0 at the top of my script
 
-Task 4
+Task 4 this website helped me with the installation syntax:
+https://anaconda.org/channels/bioconda/packages/flye/overview
+I simply created the flye-env environment and installed flye via conda and then printed the version as a failsafe and dumped the documentation in a yml file via the provided bash line
 
