@@ -1,0 +1,31 @@
+The target directory exists, but it is not a conda environment.
+Use 'conda create' to convert the directory to a conda environment.
+  target directory: /sciclone/home/tdfelton/.conda/envs/datasets
+
+
+DirectoryNotACondaEnvironmentError: The target directory exists, but it is not a conda environment.
+Use 'conda create' to convert the directory to a conda environment.
+  target directory: /sciclone/home/tdfelton/.conda/envs/datasets
+
+
+The target directory exists, but it is not a conda environment.
+Use 'conda create' to convert the directory to a conda environment.
+  target directory: /sciclone/home/tdfelton/.conda/envs/datasets
+
+
+DirectoryNotACondaEnvironmentError: The target directory exists, but it is not a conda environment.
+Use 'conda create' to convert the directory to a conda environment.
+  target directory: /sciclone/home/tdfelton/.conda/envs/datasets
+
+
+The target directory exists, but it is not a conda environment.
+Use 'conda create' to convert the directory to a conda environment.
+  target directory: /sciclone/home/tdfelton/.conda/envs/datasets
+
+
+DirectoryNotACondaEnvironmentError: The target directory exists, but it is not a conda environment.
+Use 'conda create' to convert the directory to a conda environment.
+  target directory: /sciclone/home/tdfelton/.conda/envs/datasets
+
+
+slurmstepd: error: *** JOB 286899 ON hi04 CANCELLED AT 2026-03-25T19:39:41 ***
