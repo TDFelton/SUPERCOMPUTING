@@ -16,7 +16,9 @@ mkdir -p "${DATA}/dog_reference" "${DATA}/raw"
 for FWD in $(tail -n +2 "${METADATA}" | cut -d',' -f1); do
 	##prefetch caches the sra file locally 
 	##the script was taking forever to run so I asked claude how to improve runtime and it said to add prefetch
-	prefetch "${FWD}"
+	prefetch "${FWD}" \
+		--output-directory "${DATA}/raw" \
+		"${FWD}"
 	##converts the sra file into fastq files
 	##split files writes the fwd and reverse separately
 	##skip technical omits junk like barcodes and links
@@ -28,6 +30,7 @@ for FWD in $(tail -n +2 "${METADATA}" | cut -d',' -f1); do
 		--threads 8 \
 		--outdir "${DATA}/raw" \
 		"${FWD}"
+	rm -rf "$DATA}/raw/${FWD}"
 done
 
 ##grabs the data from NCBI
