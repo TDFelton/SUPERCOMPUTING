@@ -10,3 +10,37 @@ warning  libmamba Cache file "/sciclone/home/tdfelton/.conda/pkgs/cache/47929eba
 warning  libmamba Cache file "/sciclone/home/tdfelton/.conda/pkgs/cache/3e39a7aa.json" was modified by another program
 warning  libmamba Cache file "/sciclone/home/tdfelton/.conda/pkgs/cache/2ce54b42.json" was modified by another program
 warning  libmamba Cache file "/sciclone/home/tdfelton/.conda/pkgs/cache/4ea078d6.json" was modified by another program
+error    libmamba Could not open lockfile '/sciclone/apps/miniforge3-24.9.2-0/pkgs/cache/cache.lock'
+error    libmamba Removing lock file '/sciclone/apps/miniforge3-24.9.2-0/pkgs/cache/cache.lock' failed
+    You may need to remove it manually
+error    libmamba Could not open lockfile '/sciclone/apps/miniforge3-24.9.2-0/pkgs/cache/cache.lock'
+error    libmamba Removing lock file '/sciclone/apps/miniforge3-24.9.2-0/pkgs/cache/cache.lock' failed
+    You may need to remove it manually
+error    libmamba Could not open lockfile '/sciclone/apps/miniforge3-24.9.2-0/pkgs/cache/cache.lock'
+error    libmamba Removing lock file '/sciclone/apps/miniforge3-24.9.2-0/pkgs/cache/cache.lock' failed
+    You may need to remove it manually
+error    libmamba Could not open lockfile '/sciclone/apps/miniforge3-24.9.2-0/pkgs/cache/cache.lock'
+error    libmamba Removing lock file '/sciclone/apps/miniforge3-24.9.2-0/pkgs/cache/cache.lock' failed
+    You may need to remove it manually
+2026-03-26T05:29:20 prefetch.3.2.1 fatal: string unexpected while executing query within virtual file system module - duplicate names in the same bundle: 'DRR241310'/'DRR241310'/sra
+spots read      : 37,708,164
+reads read      : 75,416,328
+reads written   : 75,416,328
+2026-03-26T06:01:39 prefetch.3.2.1 fatal: string unexpected while executing query within virtual file system module - duplicate names in the same bundle: 'DRR247342'/'DRR247342'/sra
+spots read      : 154,222,260
+reads read      : 308,444,520
+reads written   : 308,444,520
+2026-03-26T07:40:33 prefetch.3.2.1 fatal: string unexpected while executing query within virtual file system module - duplicate names in the same bundle: 'DRR214959'/'DRR214959'/sra
+spots read      : 185,517,133
+reads read      : 371,034,266
+reads written   : 371,034,266
+2026-03-26T09:29:57 prefetch.3.2.1 fatal: string unexpected while executing query within virtual file system module - duplicate names in the same bundle: 'DRR214960'/'DRR214960'/sra
+spots read      : 123,519,885
+reads read      : 247,039,770
+reads written   : 247,039,770
+2026-03-26T10:43:26 prefetch.3.2.1 fatal: string unexpected while executing query within virtual file system module - duplicate names in the same bundle: 'DRR214961'/'DRR214961'/sra
+spots read      : 182,946,681
+reads read      : 365,893,362
+reads written   : 365,893,362
+2026-03-26T12:25:34 prefetch.3.2.1 fatal: string unexpected while executing query within virtual file system module - duplicate names in the same bundle: 'DRR214962'/'DRR214962'/sra
+slurmstepd: error: *** JOB 55588 ON gu01 CANCELLED AT 2026-03-26T09:19:48 ***

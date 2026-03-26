@@ -19,3 +19,6 @@ The second major challenge is with bash, the filepaths do not give you little sq
 I did learn that I would much rather write my code in VS then git bash as it will tell me when I make a syntax mistake like a misplaced dollarsign or calling the wrong variable (output vs out) it would likely save me a lot of time
 I also learned that congestion on the HPC is very frustrating when you're trying to meet a deaddline and I likely should have started this assignment on Friday rather than Tuesday so I had time to do more intermittent updates. Live and learn I suppose, hopefully my overnight runs well.
 
+UPDATE
+my script has been running for 8 hours and has not competed, I am submitting what I have but I clearly did something wrong, maybe my genome files were too large and I should have chosen a different one?
+
