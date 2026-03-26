@@ -1,5 +1,5 @@
 #!/bin/bash
-
+##load the conda module
 module load miniforge3/
 
 source /sciclone/apps/miniforge3-24.9.2-0/etc/profile.d/conda.sh
@@ -7,7 +7,7 @@ source /sciclone/apps/miniforge3-24.9.2-0/etc/profile.d/conda.sh
 conda create -n datasets --yes 2>/dev/null ||true
 conda activate datasets
 ##install the fasterq-dump command
-mamba install -y -c bioconda sra-tools
+mamba install -y -c bioconda sra-tools fastp samtools
 ##install the datasets command
 mamba install -y -c conda-forge ncbi-datasets-cli
 ##install bbmap
